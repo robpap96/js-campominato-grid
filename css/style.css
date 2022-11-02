@@ -35,9 +35,24 @@ footer {
     display: flex;
     align-items: center;
 }
-.left-header button span {
-    padding: 5px 30px;
+.left-header h1{
+    padding-left: 10px;
 }
+.right-header .play-btn {
+    padding: 5px 60px;
+    border-radius: 8px;
+    background-color: lightgrey;
+
+}
+.right-header select {
+    padding: 5px 60px;
+    border-radius: 8px;
+    background-color: lightgrey;
+}
+.right-header label {
+    font-size: 20px;
+}
+
 
 .board {
     display: flex;

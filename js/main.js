@@ -68,11 +68,6 @@ playButton.addEventListener("click", function(){
         clicked = true;
     } else {
         alert("Hai gia creato la board!!");
-    }
-    
-    
-    
-    
-    
+    }   
 });
 
