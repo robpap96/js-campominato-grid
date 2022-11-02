@@ -1,0 +1,45 @@
+/********************
+        RESET
+********************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:  #7fffd4;
+
+}
+header {
+    background-color: red;
+    height: 100px;
+}
+main {
+    display: flex;
+    margin: auto;
+    flex-grow: 1;
+}
+footer {
+   padding: 1rem;
+   background-color: white;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 31.25rem;
+    width: 31.25rem;
+    margin: auto;
+}
+.board__number {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+}
+.blue__cell {
+    background-color: blue;
+}
