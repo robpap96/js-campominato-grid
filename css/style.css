@@ -51,6 +51,9 @@ footer {
     display: none;
 }
 .board__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
